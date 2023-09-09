@@ -1,0 +1,162 @@
+// FONT FACE --INTER
+@font-face {
+  font-family: Inter;
+  font-weight: 300;
+  src: url("../fonts/Inter/static/Inter-Light.ttf");
+}
+@font-face {
+  font-family: Inter;
+  font-weight: 400;
+  src: url("../fonts/Inter/static/Inter-Regular.ttf");
+}
+@font-face {
+  font-family: Inter;
+  font-weight: 500;
+  src: url("../fonts/Inter/static/Inter-Medium.ttf");
+}
+@font-face {
+  font-family: Inter;
+  font-weight: 600;
+  src: url("../fonts/Inter/static/Inter-SemiBold.ttf");
+}
+@font-face {
+  font-family: Inter;
+  font-weight: 700;
+  src: url("../fonts/Inter/static/Inter-Bold.ttf");
+}
+
+// POPPINS
+@font-face {
+  font-family: Poppins;
+  font-weight: 300;
+  src: url("../fonts/Poppins/Poppins-Light.ttf");
+}
+@font-face {
+  font-family: Poppins;
+  font-weight: 400;
+  src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: Poppins;
+  font-weight: 500;
+  src: url("../fonts/Poppins/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: Poppins;
+  font-weight: 600;
+  src: url("../fonts/Poppins/Poppins-SemiBold.ttf");
+}
+@font-face {
+  font-family: Poppins;
+  font-weight: 700;
+  src: url("../fonts/Poppins/Poppins-Bold.ttf");
+}
+
+//
+// FONT FACE --MerriweatherSans
+@font-face {
+  font-family: MerriweatherSans;
+  font-weight: 300;
+  src: url("../fonts/Merriweather_Sans/static/MerriweatherSans-Light.ttf");
+}
+@font-face {
+  font-family: MerriweatherSans;
+  font-weight: 400;
+  src: url("../fonts/Merriweather_Sans/static/MerriweatherSans-Regular.ttf");
+}
+@font-face {
+  font-family: MerriweatherSans;
+  font-weight: 500;
+  src: url("../fonts/Merriweather_Sans/static/MerriweatherSans-Medium.ttf");
+}
+@font-face {
+  font-family: MerriweatherSans;
+  font-weight: 600;
+  src: url("../fonts/Merriweather_Sans/static/MerriweatherSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: MerriweatherSans;
+  font-weight: 700;
+  src: url("../fonts/Merriweather_Sans/static/MerriweatherSans-Bold.ttf");
+}
+//
+// FONT FACE --Kodchasan
+@font-face {
+  font-family: Kodchasan;
+  font-weight: 300;
+  src: url("../fonts/Kodchasan/Kodchasan-Light.ttf");
+}
+@font-face {
+  font-family: Kodchasan;
+  font-weight: 400;
+  src: url("../fonts/Kodchasan/Kodchasan-Regular.ttf");
+}
+@font-face {
+  font-family: Kodchasan;
+  font-weight: 500;
+  src: url("../fonts/Kodchasan/Kodchasan-Medium.ttf");
+}
+@font-face {
+  font-family: Kodchasan;
+  font-weight: 600;
+  src: url("../fonts/Kodchasan/Kodchasan-SemiBold.ttf");
+}
+@font-face {
+  font-family: Kodchasan;
+  font-weight: 700;
+  src: url("../fonts/Kodchasan/Kodchasan-Bold.ttf");
+}
+
+// FONT FACE --BeVietnam
+@font-face {
+  font-family: BeVietnam;
+  font-weight: 300;
+  src: url("../fonts/Be_Vietnam/BeVietnam-Light.ttf");
+}
+@font-face {
+  font-family: BeVietnam;
+  font-weight: 400;
+  src: url("../fonts/Be_Vietnam/BeVietnam-Regular.ttf");
+}
+@font-face {
+  font-family: BeVietnam;
+  font-weight: 500;
+  src: url("../fonts/Be_Vietnam/BeVietnam-Medium.ttf");
+}
+@font-face {
+  font-family: BeVietnam;
+  font-weight: 600;
+  src: url("../fonts/Be_Vietnam/BeVietnam-SemiBold.ttf");
+}
+@font-face {
+  font-family: BeVietnam;
+  font-weight: 700;
+  src: url("../fonts/Be_Vietnam/BeVietnam-Bold.ttf");
+}
+
+//
+html body {
+  @apply font-body antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  @apply font-display;
+}
+
+:root {
+  --font-display: Poppins;
+  --font-body: Poppins;
+}
+
+.theme-animals {
+  --font-display: Inter;
+  --font-body: Inter;
+}
+
+.theme-astronomy {
+  --font-display: BeVietnam;
+  --font-body: BeVietnam;
+}
