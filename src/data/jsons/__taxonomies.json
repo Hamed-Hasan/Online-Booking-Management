@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Garden",
+    "href": "/",
+    "thumbnail": "https://images.pexels.com/photos/2363814/pexels-photo-2363814.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "count": 13,
+    "color": "indigo"
+  },
+  {
+    "id": 2,
+    "name": "Jewelry",
+    "href": "/",
+    "thumbnail": "https://images.pexels.com/photos/7932264/pexels-photo-7932264.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "count": 16,
+    "color": "red"
+  },
+  {
+    "id": 3,
+    "name": "Industrial",
+    "href": "/",
+    "thumbnail": "https://images.pexels.com/photos/1858406/pexels-photo-1858406.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "count": 15,
+    "color": "yellow"
+  },
+  {
+    "id": 4,
+    "name": "Tools",
+    "href": "/",
+    "thumbnail": "https://images.pexels.com/photos/4352244/pexels-photo-4352244.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "count": 21,
+    "color": "pink"
+  },
+  {
+    "id": 5,
+    "name": "Automotive",
+    "href": "/",
+    "thumbnail": "https://images.pexels.com/photos/2395249/pexels-photo-2395249.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "count": 16,
+    "color": "pink"
+  },
+  {
+    "id": 6,
+    "name": "Toys",
+    "href": "/",
+    "thumbnail": "https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "count": 25,
+    "color": "blue"
+  },
+  {
+    "id": 7,
+    "name": "Outdoors",
+    "href": "/",
+    "thumbnail": "https://images.pexels.com/photos/7195344/pexels-photo-7195344.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "count": 14,
+    "color": "gray"
+  },
+  {
+    "id": 8,
+    "name": "Health",
+    "href": "/",
+    "thumbnail": "https://images.pexels.com/photos/7195270/pexels-photo-7195270.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "count": 4,
+    "color": "purple"
+  },
+  {
+    "id": 9,
+    "name": "Electronics",
+    "href": "/",
+    "thumbnail": "https://images.pexels.com/photos/7195208/pexels-photo-7195208.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "count": 7,
+    "color": "red"
+  },
+  {
+    "id": 10,
+    "name": "Industrial",
+    "href": "/",
+    "thumbnail": "x",
+    "count": 26,
+    "color": "blue"
+  },
+  {
+    "id": 11,
+    "name": "Health",
+    "href": "/",
+    "thumbnail": "x",
+    "count": 20,
+    "color": "indigo"
+  },
+  {
+    "id": 12,
+    "name": "Toys",
+    "href": "/",
+    "thumbnail": "x",
+    "count": 22,
+    "color": "indigo"
+  },
+  {
+    "id": 13,
+    "name": "Sports",
+    "href": "/",
+    "thumbnail": "x",
+    "color": "green"
+  },
+  {
+    "id": 14,
+    "name": "Automotive",
+    "href": "/",
+    "thumbnail": "x",
+    "count": 9,
+    "color": "green"
+  },
+  {
+    "id": 15,
+    "name": "Computers",
+    "href": "/",
+    "thumbnail": "x",
+    "count": 26,
+    "color": "blue"
+  },
+  {
+    "id": 16,
+    "name": "Design",
+    "href": "/",
+    "thumbnail": "x",
+    "count": 15,
+    "color": "indigo"
+  },
+  {
+    "id": 17,
+    "name": "Beauty",
+    "href": "/",
+    "thumbnail": "x",
+    "count": 27,
+    "color": "red"
+  },
+  {
+    "id": 18,
+    "name": "Books",
+    "href": "/",
+    "thumbnail": "x",
+    "count": 25,
+    "color": "pink"
+  },
+  {
+    "id": 19,
+    "name": "life Style",
+    "href": "/",
+    "thumbnail": "x",
+    "count": 18,
+    "color": "green"
+  },
+
+  {
+    "id": 20,
+    "name": "Graphic Design",
+    "href": "/",
+    "thumbnail": "x",
+    "count": 25,
+    "color": "gray"
+  }
+]
