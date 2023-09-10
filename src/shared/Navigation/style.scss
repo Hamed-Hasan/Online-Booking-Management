@@ -1,0 +1,7 @@
+.menu-item {
+  &:hover {
+    .sub-menu {
+      display: block;
+    }
+  }
+}
