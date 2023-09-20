@@ -39,9 +39,9 @@ const SiteHeader = () => {
   let [headers] = useState<SiteHeaders[]>(["Header 1", "Header 2", "Header 3"]);
 
   let [homePages] = useState<HomePageItem[]>([
-    { name: "Home Main", slug: "/" },
+    { name: "Travel", slug: "/" },
     { name: "Real Estate", slug: "/home-2" },
-    { name: "Home 3", slug: "/home-3" },
+    { name: "Booking", slug: "/home-3" },
   ]);
   const [headerSelected, setHeaderSelected] = useState<SiteHeaders>("Header 2");
 
@@ -157,19 +157,7 @@ const SiteHeader = () => {
                         {renderRadioHeaders()}
                         {renderRadioHomePages()}
                       </div>
-                      <div className="bg-gray-50 dark:bg-white/5 p-5">
-                        <a
-                          className="flex items-center justify-center w-full px-4 py-2 !rounded-xl text-sm font-medium bg-primary-6000 text-white hover:bg-primary-700"
-                          href={
-                            "https://themeforest.net/item/chisfis-online-booking-nextjs-template/43399526"
-                          }
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <ShoppingCartIcon className="w-4 h-4" />
-                          <span className="ml-2">Buy this template</span>
-                        </a>
-                      </div>
+                    
                     </div>
                   </Popover.Panel>
                 </Transition>
@@ -197,7 +185,7 @@ const SiteHeader = () => {
         return <Header3 className={headerClassName} />;
 
       default:
-        return <Header3 className={headerClassName} />;
+        return <Header className={headerClassName} navType="MainNav1" />;
     }
   };
 

@@ -1,0 +1,43 @@
+# Dependency directories
+node_modules/
+.yarn/
+
+# Next.js build output
+.next/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# TypeScript type checking
+*.tsbuildinfo
+
+# TailwindCSS JIT generated styles
+tailwind.css
+safelist.txt
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Miscellaneous
+.cache/
+dist/
+*.gz
